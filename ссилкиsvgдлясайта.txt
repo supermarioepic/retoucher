@@ -1,0 +1,12 @@
+<svg class="icon">
+  <use xlink:href="#instagram"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#pointer"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#select"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#facebook"></use>
+</svg>

@@ -1,0 +1,37 @@
+.header {
+    background: url('../images/main-bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 32px;
+}
+
+.menu {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    &__link {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.support {
+    width: 52px;
+    display: flex;
+    align-items: flex-start;
+
+    &__insta {
+        
+    }
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}

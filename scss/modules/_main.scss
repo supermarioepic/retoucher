@@ -1,0 +1,64 @@
+.main {
+    overflow: hidden;
+}
+
+.galery {
+    
+    &__head {
+        text-align: center; 
+
+    }
+
+    &__caption {
+        position: relative;
+        margin-bottom: 45px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            margin-left: 10%;
+            width: 300%;
+            border-top: 2px solid $black;
+            margin-top: 0.6em;
+        }
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: -500px;
+            margin-left: 700px;
+            width: 300%;
+            border-top: 2px solid $black;
+        }
+        
+        &--2 {
+            position: relative;
+            text-align: center;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: -450px;
+                width: 300%;
+                border-top: 2px solid $black;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -300px;
+                margin-left: 600px;
+                width: 300%;
+                border-top: 2px solid $black;
+            }
+        }
+    }
+
+    .picture {
+        margin-bottom: 40px;
+        &__img {
+            padding: 0px;
+            margin: 0px -2px 0px -2px;
+        }
+    }
+}
