@@ -1,0 +1,55 @@
+.head {
+    text-align: center;
+}
+
+.inf {
+    margin-bottom: 100px;
+    &__caption {
+        margin-bottom: 225px;
+        font-weight: normal;
+    }
+
+    &__social {
+        margin-bottom: 20px;
+    }
+
+    &__service {
+        margin-bottom: 10px;
+
+        a {
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-weight: normal;
+            color: $black;
+        }
+    }
+}
+
+.form {
+    &__caption {
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    &__field {
+        width: 100%;
+        border-bottom: 1px solid #101010;
+        margin-bottom: 40px;
+        font-weight: normal;
+        resize: vertical;
+    }
+
+    &__btn {
+        padding: 15px 25px;
+        background: transparent;
+        font-weight: normal;
+        cursor: pointer;
+        border: 1px solid #101010;
+    }
+
+    &__btn:focus {
+        border: 1px solid $form;
+        color: $form;
+    }
+    margin-bottom: 100px;
+}

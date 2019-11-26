@@ -31,10 +31,10 @@
 									<a href="#girlportfolio" class="menu__link">портфоліо</a>
 								</li>
 								<li class="menu__item">
-									<a href="#" class="menu__link">про мене</a>
+									<a href="#about" class="menu__link">про мене</a>
 								</li>
 								<li class="menu__item">
-									<a href="#" class="menu__link">контакти</a>
+									<a href="#about" class="menu__link">контакти</a>
 								</li>
 								<li class="menu__item support">
 									<a href="#" class="insta">
@@ -162,7 +162,7 @@
 											<div class="scroller">
 											   <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 												  <polygon points="0 50 37 68 37 32 0 50" style="fill:#fff"/>
-												  <polygon points="100 50 64 32 64 68 100 50" style="fill:#fff"/>
+						65t						  <polygon points="100 50 64 32 64 68 100 50" style="fill:#fff"/>
 											   </svg>
 											</div>
 									</div>
@@ -182,17 +182,71 @@
 				<div class="row">
 					<div class="about-me col-12">
 						<p class="about-me__head title">про мене</p>
-						<img src="images/avtor.jpg" alt="avtor" class="about-me__img col-6">
-						<div class="col-6">
-							<p class="about-me__caption text">Привіт! Мене звуть Алла Горіна і я професійний ретушер і редактор зображень.</p>
-							<p class="about-me__caption text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральної текстури предметів.</p>
-							<p class="about-me__caption text"> Я займаюсь фешн, б’юті, предметним та журнальним ретушуванням зображень</p>
-							<p class="about-me__caption text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральноїтекстури предметів. Я займаюсь фешн, б’юті</p>
+						<div id="about" style="display: flex;">
+							<img src="images/avtor.jpg" alt="avtor" class="about-me__img col-5">
+							<div class="offset-1 col-6">
+								<p class="about-me__caption text">Привіт! Мене звуть Алла Горіна і я професійний ретушер і редактор зображень.</p>
+								<p class="about-me__caption text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральної текстури предметів.</p>
+								<p class="about-me__caption about-me__caption--1 text"> Я займаюсь фешн, б’юті, предметним та журнальним ретушуванням зображень</p>
+								<p class="about-me__caption about-me__caption--2 text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральноїтекстури предметів. Я займаюсь фешн, б’юті</p>
+							</div>
 						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+					<p class="head title">контакти</p>
+				<div class="row">
+					<div id="contact" class="inf col-4">
+								<p class="inf__caption text">Зв’яжіться зі мною і я відповім в найкоротший термін</p>
+								<div class="inf__social">
+									<a href="#" class="instagram">
+										<svg class="icon">
+											<use xlink:href="/images/sprite.svg#instagram"></use>
+										</svg>
+									</a>
+									<a href="#" class="facebook">
+											<svg class="icon">
+												<use xlink:href="/images/sprite.svg#facebook"></use>
+											</svg>
+									</a>
+								</div>
+								
+								<p class="inf__service text"><a href="tel:+380997778899">+380997778899</a></p>
+								<p class="inf__service text"><a href="mailto:kotik.puhlyash@gmail.com">kotik.puhlyash@gmail.com</a></p>
+
+					</div>
+					<div class="form offset-2 col-6">
+						<form action="#">
+							<p class="form__caption text">ім’я</p>
+							<input type="text" name="name" class="form__field text">
+							<p class="form__caption text">телефон</p>
+							<input type="tel" name="tel" placeholder="+380" maxlength="13" class="form__field text">
+							<p class="form__caption text">повідомлення</p>
+							<textarea name="message" id="" cols="30" rows="2" class="form__field text"></textarea>
+							<button type="submit" class="form__btn text">надіслати</button>
+						</form>
 					</div>
 				</div>
 			</div>
 	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="copirates col-12">
+					<p class="copirates__caption text">Alla Gorina Copyright © All rights reserved</p>
+					<a href="#" class="pointer">
+						<svg class="icon">
+							<use xlink:href="#pointer"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="js/main.js"></script>
 </body>
 </html>

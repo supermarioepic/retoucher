@@ -1,5 +1,37 @@
 .about-me {
+    margin-bottom: 40px;
     &__head {
         text-align: center;
+    }
+    &__caption {
+        margin-bottom: 25px;
+        font-weight: normal;
+
+        &--1::after {
+            content: '';
+            position: absolute;
+            top: 350px;
+            margin-left: 70px;
+            width: 300%;
+            border-top: 2px solid $black;
+        }
+
+        &--2::before {
+            content: '';
+            position: absolute;
+            top: 450px;
+            margin-left: 500px;
+            width: 300%;
+            border-top: 2px solid $black;
+        }
+
+        &--2::after {
+            content: '';
+            position: absolute;
+            top: 550px;
+            margin-left: -100px;
+            width: 300%;
+            border-top: 2px solid $black;
+        }
     }
 }
