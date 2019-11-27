@@ -13,6 +13,20 @@
     overflow: hidden;
 }
 
+.head {
+    text-align: center;
+}
+
+.icon {
+    width: 25px;
+	height: 25px;
+	fill: #000000;
+
+	&:hover {
+		fill: $form;
+	}
+}
+
 img {
 	max-width: 100%;
 	height: auto;

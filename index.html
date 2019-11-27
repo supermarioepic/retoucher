@@ -28,18 +28,18 @@
 									</a>
 								</li>
 								<li class="menu__item">
-									<a href="#girlportfolio" class="menu__link">портфоліо</a>
+									<a href="#portfolio" class="menu__link">портфоліо</a>
 								</li>
 								<li class="menu__item">
 									<a href="#about" class="menu__link">про мене</a>
 								</li>
 								<li class="menu__item">
-									<a href="#about" class="menu__link">контакти</a>
+									<a href="#contact" class="menu__link">контакти</a>
 								</li>
 								<li class="menu__item support">
 									<a href="#" class="insta">
 										<svg class="icon">
-											<use xlink:href="/images/sprite.svg#instagram"></use>
+											<use xlink:href="images/sprite.svg#instagram"></use>
 										</svg>
 									</a> 
 									
@@ -47,7 +47,7 @@
 										<span class="leng__description">ua</span>
 									</div>
 									<svg class="icon">
-										<use xlink:href="/images/sprite.svg#select"></use>
+										<use xlink:href="images/sprite.svg#select"></use>
 									</svg>	
 								</li>
 							</ul>			
@@ -57,10 +57,10 @@
 	</header>
 
 	<main class="main">
-			<div class="container">
+			<div id="portfolio" class="container">
+					<p class="head title">портфоліо</p>
 					<div class="row">
 						<div class="galery col-12">
-							<p class="galery__head title">портфоліо</p>
 							<p class="galery__caption text">б’юті ретуш</p>
 							<div id="girlportfolio">
 									<div class="wrapper">
@@ -178,46 +178,41 @@
 					</div>
 			</div>
 			
-			<div class="container">
-				<div class="row">
-					<div class="about-me col-12">
-						<p class="about-me__head title">про мене</p>
-						<div id="about" style="display: flex;">
-							<img src="images/avtor.jpg" alt="avtor" class="about-me__img col-5">
-							<div class="offset-1 col-6">
-								<p class="about-me__caption text">Привіт! Мене звуть Алла Горіна і я професійний ретушер і редактор зображень.</p>
-								<p class="about-me__caption text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральної текстури предметів.</p>
-								<p class="about-me__caption about-me__caption--1 text"> Я займаюсь фешн, б’юті, предметним та журнальним ретушуванням зображень</p>
-								<p class="about-me__caption about-me__caption--2 text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральноїтекстури предметів. Я займаюсь фешн, б’юті</p>
-							</div>
-						</div>
-
+			<div id="about" class="container">
+				<p class="head title">про мене</p>
+				<div class="about-me row">
+					<img src="images/avtor.jpg" alt="avtor" class="about-me__img col-5">
+					<div class="offset-1 col-6">
+						<p class="about-me__caption text">Привіт! Мене звуть Алла Горіна і я професійний ретушер і редактор зображень.</p>
+						<p class="about-me__caption text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральної текстури предметів.</p>
+						<p class="about-me__caption about-me__caption--1 text"> Я займаюсь фешн, б’юті, предметним та журнальним ретушуванням зображень</p>
+						<p class="about-me__caption about-me__caption--2 text">Я притримуюсь неруйнунівного стилю ретушування, з акцентом на збереження 100% натуральноїтекстури предметів. Я займаюсь фешн, б’юті</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="container">
-					<p class="head title">контакти</p>
-				<div class="row">
-					<div id="contact" class="inf col-4">
-								<p class="inf__caption text">Зв’яжіться зі мною і я відповім в найкоротший термін</p>
-								<div class="inf__social">
-									<a href="#" class="instagram">
-										<svg class="icon">
-											<use xlink:href="/images/sprite.svg#instagram"></use>
-										</svg>
-									</a>
-									<a href="#" class="facebook">
-											<svg class="icon">
-												<use xlink:href="/images/sprite.svg#facebook"></use>
-											</svg>
-									</a>
-								</div>
-								
-								<p class="inf__service text"><a href="tel:+380997778899">+380997778899</a></p>
-								<p class="inf__service text"><a href="mailto:kotik.puhlyash@gmail.com">kotik.puhlyash@gmail.com</a></p>
-
+			<div id="contact" class="container">
+				<p class="head title">контакти</p>
+				<div class="contact row">
+					<div class="inf col-4">
+						<p class="inf__caption text">Зв’яжіться зі мною і я відповім в найкоротший термін</p>
+						<div class="inf__social">
+							<a href="#" class="instagram">
+								<svg class="icon">
+									<use xlink:href="images/sprite.svg#instagram"></use>
+								</svg>
+							</a>
+							<a href="#" class="facebook">
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#facebook"></use>
+									</svg>
+							</a>
+						</div>
+						
+						<p class="inf__service text"><a href="tel:+380997778899">+380997778899</a></p>
+						<p class="inf__service text"><a href="mailto:kotik.puhlyash@gmail.com">kotik.puhlyash@gmail.com</a></p>
 					</div>
+					
 					<div class="form offset-2 col-6">
 						<form action="#">
 							<p class="form__caption text">ім’я</p>
@@ -240,7 +235,7 @@
 					<p class="copirates__caption text">Alla Gorina Copyright&copy;All rights reserved</p>
 					<a href="#" class="pointer">
 						<svg class="icon">
-							<use xlink:href="#pointer"></use>
+							<use xlink:href="images/sprite.svg#pointer"></use>
 						</svg>
 					</a>
 				</div>
